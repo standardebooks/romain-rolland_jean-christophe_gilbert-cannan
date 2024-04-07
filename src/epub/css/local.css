@@ -1,2 +1,23 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
