@@ -187,6 +187,7 @@
 		<itemref idref="chapter-10-2.xhtml"/>
 		<itemref idref="chapter-10-3.xhtml"/>
 		<itemref idref="chapter-10-4.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
