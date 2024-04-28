@@ -131,3 +131,7 @@ p span.i5{
 	padding-left: 5em;
 	text-indent: -1em;
 }
+
+#note-3 ol{
+	list-style-type: upper-roman;
+}
