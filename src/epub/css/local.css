@@ -103,7 +103,8 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:signature"]{
+[epub|type~="z3998:signature"],
+[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
@@ -111,6 +112,11 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+
+#chapter-1-3 [epub|type~="z3998:salutation"],
+#chapter-8-1 [epub|type~="z3998:salutation"]{
+	font-variant: normal;
 }
 
 /* Poetry */
