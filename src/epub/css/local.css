@@ -3,7 +3,7 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Italicize all foreign blockquotes */
-body [xml|lang]{
+blockquote[xml|lang]{
 	font-style: italic;
 }
 
@@ -120,22 +120,26 @@ footer{
 }
 
 /* Poetry */
-[epub|type~="z3998:verse"] p{
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:lyrics"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:verse"] p + p,
+[epub|type~="z3998:lyrics"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:verse"] p > span{
+[epub|type~="z3998:verse"] p > span,
+[epub|type~="z3998:lyrics"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:verse"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br,
+[epub|type~="z3998:lyrics"] p > span + br{
 	display: none;
 }
 
