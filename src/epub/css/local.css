@@ -2,7 +2,12 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-/* Italicize all foreign blockquotes */
+section{
+	break-after: page;
+}
+
+/* Italicize all foreign quotes */
+p[xml|lang],
 blockquote[xml|lang]{
 	font-style: italic;
 }
@@ -28,6 +33,7 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
+/* Full-page epigraphs */
 section[epub|type~="epigraph"]{
 	text-align: center;
 }
@@ -56,34 +62,54 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-/* Centered dedications
-Also used for full page blockquotes in 8-1 and 9-2 */
-section[epub|type~="dedication"],
-#chapter-8-1 blockquote:nth-of-type(13),
-#chapter-9-2 blockquote:nth-of-type(2){
+/* Epigraphs in section headers */
+/* Epigraphs for epilogues chapter-8-1 and chapter-9-2 */
+#epilogue-8-1 > [epub|type~="epigraph"],
+#epilogue-9-2 > [epub|type~="epigraph"],
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+#epilogue-9-2 > [epub|type~="epigraph"] + *,
+#epilogue-8-1 > [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	#epilogue-8-1 > [epub|type~="epigraph"],
+	#epilogue-9-2 > [epub|type~="epigraph"],
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+
+section#epilogue-8-1,
+section#epilogue-9-2{
+	margin-top: 20vh;
+}
+
+/* Centered dedications */
+section[epub|type~="dedication"]{
 	font-variant: all-small-caps;
 	text-align: center;
 }
 
-section[epub|type~="dedication"] > *,
-#chapter-8-1 blockquote:nth-of-type(13),
-#chapter-9-2 blockquote:nth-of-type(2){
+section[epub|type~="dedication"] > *{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
 }
 
-section[epub|type~="dedication"] cite,
-#chapter-8-1 blockquote:nth-of-type(13),
-#chapter-9-2 blockquote:nth-of-type(2){
+section[epub|type~="dedication"] cite{
 	text-align: right;
 }
 
 @supports(display: flex){
-	section[epub|type~="dedication"],
-	#chapter-8-1 blockquote:nth-of-type(13),
-	#chapter-9-2 blockquote:nth-of-type(2){
+	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
@@ -93,9 +119,7 @@ section[epub|type~="dedication"] cite,
 		padding-top: 3em;
 	}
 
-	section[epub|type~="dedication"] > *,
-	#chapter-8-1 blockquote:nth-of-type(13),
-	#chapter-9-2 blockquote:nth-of-type(2){
+	section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
@@ -194,7 +218,6 @@ figure.full-page{
 		object-fit: contain;
 	}
 }
-
 /* Endnote additional styling */
 
 #note-3 ol{
