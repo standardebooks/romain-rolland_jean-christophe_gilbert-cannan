@@ -6,9 +6,11 @@ section{
 	break-after: page;
 }
 
-/* Italicize all foreign quotes */
+/* Italicize all foreign text,
+ except <span xml:lang> that aren't publications */
 p[xml|lang],
-blockquote[xml|lang]{
+blockquote[xml|lang],
+span[xml|lang][epub|type]{
 	font-style: italic;
 }
 
