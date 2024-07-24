@@ -185,8 +185,18 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.i5{
-	padding-left: 6em;
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+
+p span.i6{
+	padding-left: 7em;
 	text-indent: -1em;
 }
 
@@ -224,4 +234,23 @@ figure.full-page{
 
 #note-3 ol{
 	list-style-type: upper-roman;
+}
+
+/* Additional styling */
+
+#chapter-7-1 > blockquote:nth-of-type(2),
+#chapter-7-1 > blockquote:nth-of-type(3),
+#chapter-7-1 > blockquote:nth-of-type(4),
+#chapter-7-1 > blockquote:nth-of-type(5),
+#chapter-7-1 > blockquote:nth-of-type(6),
+#chapter-7-1 > blockquote:nth-of-type(7),
+#chapter-7-1 > blockquote:nth-of-type(8),
+#chapter-7-1 > blockquote:nth-of-type(9),
+#chapter-7-1 > blockquote:nth-of-type(11),
+#chapter-7-1 > blockquote:nth-of-type(12){
+	font-style: italic;
+}
+
+#chapter-10-4 > p:nth-child(142){
+	text-align: center;
 }
