@@ -18,7 +18,9 @@
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -31,58 +33,86 @@
 		<dc:subject id="subject-1">Psychological fiction</dc:subject>
 		<dc:subject id="subject-2">Epic literature</dc:subject>
 		<dc:subject id="subject-3">Musicians -- Fiction</dc:subject>
-		<dc:subject id="subject-4">French fiction -- Translations into Finnish</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85108438</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">sh85044272</meta>
+		<meta property="term" refines="#subject-rance2">sh85044272</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107254</meta>
-		<meta property="authority" refines="#subject-4">LCSH</meta>
-		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A Belgian-German man, born into a family of musicians, experiences love and loss, struggle and success, on his journey to becoming a famous composer.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Jean-Christophe Krafft, born into a Belgian-German family of musicians, seems destined for music from an early age: he is sensitive to sound, learns to play the piano, and, with the help of his grandfather, soon writes his first compositions. This leads him to become a court musician of the Grand Duchy on the Rhine, where he lives. Along the way, he experiences love, setbacks, poverty, but also success.&lt;/p&gt;
+			&lt;p&gt;After a violent incident forces him to flee, he finds shelter in Paris, where he meets a friend for life: Oliver. However, his idealistic worldview and stubborn character repeatedly get him into trouble, forcing him to seek refuge in Switzerland.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Jean-Christophe&lt;/i&gt; is the story of a man, chronicled from his birth to his death. &lt;a href="https://standardebooks.org/ebooks/romain-rolland"&gt;Romain Rolland&lt;/a&gt;, strongly motivated by his own biography of Beethoven, always envisioned it as a novel that flows ‘like a river’: meandering, propelled by its own force, not to be channeled by plot. This is characterized in Jean-Christophe through extensive digressions, the author’s views on nationality, politics, music, and culture in early twentieth century Europe. &lt;i&gt;Jean-Christophe&lt;/i&gt; thus became the first &lt;i&gt;roman-fleuve&lt;/i&gt; (river-novel), a term most famously applied to &lt;a href="https://standardebooks.org/ebooks/marcel-proust"&gt;Marcel Proust’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/marcel-proust/in-search-of-lost-time/c-k-scott-moncrieff"&gt;&lt;i&gt;In Search of Lost Time&lt;/i&gt;&lt;/a&gt;. For this contribution to literature, Romain was awarded the Nobel Prize for Literature in 1915.&lt;/p&gt;
+			&lt;p&gt;In the original French, &lt;i&gt;Jean-Christophe&lt;/i&gt; was published in 10 separate volumes, while Gilbert Cannan’s English translation appeared in 3 volumes roughly encompassing Jean-Christophe’s youth and adolescence, his adulthood, and the latter years of his life. This Standard Ebooks edition brings all volumes of Cannan’s translation together.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!--Jean-Christophe-->
 		<dc:source>https://www.gutenberg.org/ebooks/7979</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/jeanchristophe01roll</dc:source>
+		<!--Jean-Christophe in Paris-->
+		<dc:source>https://www.gutenberg.org/ebooks/8149</dc:source>
+		<dc:source>https://archive.org/details/jeanchristophe02roll_0</dc:source>
+		<!--Jean Christophe - Journey's end-->
+		<dc:source>https://www.gutenberg.org/ebooks/7967</dc:source>
+		<dc:source>https://archive.org/details/jeanchristophe03roll</dc:source>
+		<meta property="se:production-notes">One line, referring to the original physical division into three volumes, was cut from the preface. The endnotes have also been edited to reflect this change.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Jean-Christophe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/romain-rolland_jean-christophe_gilbert-cannan</meta>
 		<dc:creator id="author">Romain Rolland</dc:creator>
 		<meta property="file-as" refines="#author">Rolland, Romain</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Romain_Rolland</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79059160</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="translator">Gilbert Cannan</dc:contributor>
 		<meta property="file-as" refines="#translator">Cannan, Gilbert</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Gilbert Eric Cannan</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Gilbert_Cannan</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50051536</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Louis Casimir Ladislas Marcoussis</dc:contributor>
+		<meta property="file-as" refines="#artist">Marcoussis, Louis Casimir Ladislas</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Louis_Marcoussis</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85194939</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<!--Jean-Christophe in Paris-->
+		<dc:contributor id="transcriber-1">William Flis</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Flis, William</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<!--Jean Christophe: Journey's end-->
+		<dc:contributor id="transcriber-2">Charles Aldarondo</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Aldarondo, Charles</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Tiffany Vergon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Vergon, Tiffany</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Juliet Sutherland</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Sutherland, Juliet</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-6">https://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Bob Reus</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Reus, Bob</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.bobre.us</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
