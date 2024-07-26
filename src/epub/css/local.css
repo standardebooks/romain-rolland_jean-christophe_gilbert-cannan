@@ -180,11 +180,6 @@ span.elision{
 	margin-left: 3em;
 }
 
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
 p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
@@ -192,6 +187,11 @@ p span.i2{
 
 p span.i3{
 	padding-left: 4em;
+	text-indent: -1em;
+}
+
+p span.i5{
+	padding-left: 6em;
 	text-indent: -1em;
 }
 
@@ -252,5 +252,6 @@ figure.full-page{
 }
 
 #chapter-10-4 > p:nth-child(142){
+	text-indent: initial;
 	text-align: center;
 }
