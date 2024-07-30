@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/romain-rolland/jean-christophe/gilbert-cannan</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-08-01T03:57:26Z</dc:date>
+		<meta property="dcterms:modified">2024-08-01T03:57:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,12 +40,12 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107254</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">A Belgian-German man, born into a family of musicians, experiences love and loss, struggle and success, on his journey to becoming a famous composer.</dc:description>
+		<dc:description id="description">A Belgian-German musician experiences love, loss, struggle, and success on his journey to becoming a famous composer.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Jean-Christophe Krafft, born into a Belgian-German family of musicians, seems destined for music from an early age: he is sensitive to sound, learns to play the piano, and, with the help of his grandfather, soon writes his first compositions. This leads him to become a court musician of the Grand Duchy on the Rhine, where he lives. Along the way, he experiences love, setbacks, poverty, but also success.&lt;/p&gt;
-			&lt;p&gt;After a violent incident forces him to flee, he finds shelter in Paris, where he meets a friend for life: Oliver. However, his idealistic worldview and stubborn character repeatedly get him into trouble, forcing him to seek refuge in Switzerland.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Jean-Christophe&lt;/i&gt; is the story of a man, chronicled from his birth to his death. &lt;a href="https://standardebooks.org/ebooks/romain-rolland"&gt;Romain Rolland&lt;/a&gt;, strongly motivated by his own biography of Beethoven, always envisioned it as a novel that flows ‘like a river’: meandering, propelled by its own force, not to be channeled by plot. This is characterized in Jean-Christophe through extensive digressions, the author’s views on nationality, politics, music, and culture in early twentieth century Europe. &lt;i&gt;Jean-Christophe&lt;/i&gt; thus became the first &lt;i&gt;roman-fleuve&lt;/i&gt; (river-novel), a term most famously applied to &lt;a href="https://standardebooks.org/ebooks/marcel-proust"&gt;Marcel Proust’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/marcel-proust/in-search-of-lost-time/c-k-scott-moncrieff"&gt;&lt;i&gt;In Search of Lost Time&lt;/i&gt;&lt;/a&gt;. For this contribution to literature, Romain was awarded the Nobel Prize for Literature in 1915.&lt;/p&gt;
-			&lt;p&gt;In the original French, &lt;i&gt;Jean-Christophe&lt;/i&gt; was published in 10 separate volumes, while Gilbert Cannan’s English translation appeared in 3 volumes roughly encompassing Jean-Christophe’s youth and adolescence, his adulthood, and the latter years of his life. This Standard Ebooks edition brings all volumes of Cannan’s translation together.&lt;/p&gt;
+			&lt;p&gt;After a violent incident forces him to flee, he finds shelter in Paris, where he meets a friend for life: Oliver. But his idealistic worldview and stubborn character repeatedly get him into trouble, forcing him to seek refuge in Switzerland.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Jean-Christophe&lt;/i&gt; is the story of a man, chronicled from his birth to his death. &lt;a href="https://standardebooks.org/ebooks/romain-rolland"&gt;Romain Rolland&lt;/a&gt;, strongly motivated by his own biography of Beethoven, always envisioned it as a novel that flows “like a river”: meandering, propelled by its own force, not to be channeled by plot. This is embodied in &lt;i&gt;Jean-Christophe&lt;/i&gt; through extensive digressions on the author’s views on nationality, politics, music, and culture in early twentieth century Europe. &lt;i&gt;Jean-Christophe&lt;/i&gt; thus became the first &lt;i&gt;roman-fleuve&lt;/i&gt;, or river-novel, a term most famously applied to &lt;a href="https://standardebooks.org/ebooks/marcel-proust"&gt;Proust’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/marcel-proust/in-search-of-lost-time/c-k-scott-moncrieff"&gt;&lt;i&gt;In Search of Lost Time&lt;/i&gt;&lt;/a&gt;. For this contribution to literature, Romain was awarded the Nobel Prize for Literature in 1915.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Jean-Christophe&lt;/i&gt; was published in ten volumes in the original French, while Gilbert Cannan’s English translation appeared in 3 volumes, roughly encompassing Jean-Christophe’s youth and adolescence, his adulthood, and the latter years of his life. This Standard Ebooks edition brings all volumes of Cannan’s translation together.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!--Jean-Christophe-->
@@ -58,8 +58,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/7967</dc:source>
 		<dc:source>https://archive.org/details/jeanchristophe03roll</dc:source>
 		<meta property="se:production-notes">One line, referring to the original physical division into three volumes, was cut from the preface. The endnotes have also been edited to reflect this change.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">598591</meta>
+		<meta property="se:reading-ease.flesch">70.63</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Jean-Christophe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/romain-rolland_jean-christophe_gilbert-cannan</meta>
 		<dc:creator id="author">Romain Rolland</dc:creator>
@@ -113,6 +113,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
