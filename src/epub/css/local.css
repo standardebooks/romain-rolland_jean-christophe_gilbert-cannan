@@ -240,3 +240,8 @@ figcaption{
 #note-3 ol{
 	list-style-type: upper-roman;
 }
+
+#chapter-10-4 > p:nth-child(142){
+	text-align: center;
+	text-indent: initial;
+}
