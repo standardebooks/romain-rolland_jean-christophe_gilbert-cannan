@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-/* Italicize all foreign text,
+/* Italicize all non-English text,
  except <span xml:lang> that aren't publications */
 p[xml|lang],
 blockquote[xml|lang],
@@ -239,9 +239,4 @@ figcaption{
 
 #note-3 ol{
 	list-style-type: upper-roman;
-}
-
-#chapter-10-4 > p:nth-child(142){
-	text-align: center;
-	text-indent: initial;
 }
