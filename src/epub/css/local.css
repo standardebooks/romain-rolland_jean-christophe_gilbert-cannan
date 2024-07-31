@@ -2,10 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-section{
-	break-after: page;
-}
-
 /* Italicize all foreign text,
  except <span xml:lang> that aren't publications */
 p[xml|lang],
