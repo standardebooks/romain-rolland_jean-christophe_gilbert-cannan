@@ -203,6 +203,8 @@ p span.i6{
 /* Illustrations */
 figure{
 	break-inside: avoid;
+	margin: 1em 40px;
+	text-align: center;
 }
 
 figure img{
@@ -216,6 +218,13 @@ figure.full-page{
 	break-before: page;
 	margin: 0;
 	max-height: 100vh;
+	text-align: center;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
 	text-align: center;
 }
 
@@ -237,7 +246,6 @@ figure.full-page{
 }
 
 /* Additional styling */
-
 #chapter-7-1 > blockquote:nth-of-type(2),
 #chapter-7-1 > blockquote:nth-of-type(3),
 #chapter-7-1 > blockquote:nth-of-type(4),
@@ -249,9 +257,4 @@ figure.full-page{
 #chapter-7-1 > blockquote:nth-of-type(11),
 #chapter-7-1 > blockquote:nth-of-type(12){
 	font-style: italic;
-}
-
-#chapter-10-4 > p:nth-child(142){
-	text-indent: initial;
-	text-align: center;
 }
