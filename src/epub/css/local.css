@@ -240,17 +240,3 @@ figcaption{
 #note-3 ol{
 	list-style-type: upper-roman;
 }
-
-/* Additional styling */
-#chapter-7-1 > blockquote:nth-of-type(2),
-#chapter-7-1 > blockquote:nth-of-type(3),
-#chapter-7-1 > blockquote:nth-of-type(4),
-#chapter-7-1 > blockquote:nth-of-type(5),
-#chapter-7-1 > blockquote:nth-of-type(6),
-#chapter-7-1 > blockquote:nth-of-type(7),
-#chapter-7-1 > blockquote:nth-of-type(8),
-#chapter-7-1 > blockquote:nth-of-type(9),
-#chapter-7-1 > blockquote:nth-of-type(11),
-#chapter-7-1 > blockquote:nth-of-type(12){
-	font-style: italic;
-}
