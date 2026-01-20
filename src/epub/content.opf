@@ -58,7 +58,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/7967</dc:source>
 		<dc:source>https://archive.org/details/jeanchristophe03roll</dc:source>
 		<meta property="se:production-notes">One line, referring to the original physical division into three volumes, was cut from the preface. The endnotes have also been edited to reflect this change.</meta>
-		<meta property="se:word-count">598591</meta>
+		<meta property="se:word-count">595278</meta>
 		<meta property="se:reading-ease.flesch">70.63</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Jean-Christophe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/romain-rolland_jean-christophe_gilbert-cannan</meta>
