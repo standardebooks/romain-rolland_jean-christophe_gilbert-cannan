@@ -41,7 +41,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107254</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A Belgian-German musician experiences love, loss, struggle, and success on his journey to becoming a famous composer.</dc:abstract>
+		<meta property="schema:abstract">A Belgian-German musician experiences love, loss, struggle, and success on his journey to becoming a famous composer.</meta>
 		<dc:description>
 			&lt;p&gt;Jean-Christophe Krafft, born into a Belgian-German family of musicians, seems destined for music from an early age: he is sensitive to sound, learns to play the piano, and, with the help of his grandfather, soon writes his first compositions. This leads him to become a court musician of the Grand Duchy on the Rhine, where he lives. Along the way, he experiences love, setbacks, poverty, but also success.&lt;/p&gt;
 			&lt;p&gt;After a violent incident forces him to flee, he finds shelter in Paris, where he meets a friend for life: Olivier. But his idealistic worldview and stubborn character repeatedly get him into trouble, forcing him to seek refuge in Switzerland.&lt;/p&gt;
