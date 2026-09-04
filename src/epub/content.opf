@@ -33,7 +33,7 @@
 		<meta property="file-as" refines="#title">Jean-Christophe</meta>
 		<dc:subject id="subject-1">Psychological fiction</dc:subject>
 		<dc:subject id="subject-2">Epic literature</dc:subject>
-		<dc:subject id="subject-3">Musicians -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Musicians--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85108438</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
