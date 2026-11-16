@@ -3,11 +3,11 @@
 	<title>Musical notation of an excerpt of Act II of Handel’s opera Jephtha, with the caption “What ever is, is right.”</title>
 	<g fill="none" stroke="#000" stroke-linejoin="bevel">
 		<g stroke-width="2.6496">
-			<path class="StaffLines" d="m3.7906e-4 63.634h1460"/>
-			<path class="StaffLines" d="m3.7906e-4 88.434h1460"/>
-			<path class="StaffLines" d="m3.7906e-4 113.23h1460"/>
-			<path class="StaffLines" d="m3.7906e-4 138.03h1460"/>
-			<path class="StaffLines" d="m3.7906e-4 162.83h1460"/>
+			<path class="StaffLines" d="m0.00038 63.634h1460"/>
+			<path class="StaffLines" d="m0.00038 88.434h1460"/>
+			<path class="StaffLines" d="m0.00038 113.23h1460"/>
+			<path class="StaffLines" d="m0.00038 138.03h1460"/>
+			<path class="StaffLines" d="m0.00038 162.83h1460"/>
 		</g>
 		<g stroke-width="4.46">
 			<path class="BarLine" d="m889.75 62.27v101.93"/>
